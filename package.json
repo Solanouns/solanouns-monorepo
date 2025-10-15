@@ -1,0 +1,40 @@
+{
+  "name": "solanouns-monorepo",
+  "version": "1.0.0",
+  "description": "The Solanouns DAO monorepo - A Solana fork of NounsDAO",
+  "homepage": "https://solanouns.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Solanouns/solanouns-monorepo.git"
+  },
+  "license": "GPL-3.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "turbo run clean",
+    "codegen": "turbo run codegen",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.4.5",
+    "prettier-plugin-tailwindcss": "^0.6.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.10.0"
+  }
+}

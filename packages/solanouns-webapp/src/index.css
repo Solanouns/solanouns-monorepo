@@ -1,0 +1,280 @@
+/* Import Google Fonts for NounsDAO style - exact same fonts as NounsDAO */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Load custom fonts exactly like NounsDAO */
+@font-face {
+  font-family: 'Londrina Solid';
+  src: url('./fonts/Londrina_Solid/LondrinaSolid-Black.ttf');
+  src: url('./fonts/Londrina_Solid/LondrinaSolid-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('./fonts/PT_Root_UI/PTRootUI-Regular.woff2');
+  src: url('./fonts/PT_Root_UI/PTRootUI-Bold.woff2');
+}
+
+:root {
+  font-family: 'PT Root UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  
+  /* Solana-themed CSS Variables inspired by NounsDAO structure */
+  --solana-purple: #9945FF;
+  --solana-purple-dark: #7C3AED;
+  --solana-purple-light: #C084FC;
+  --solana-green: #14F195;
+  --solana-green-dark: #10B981;
+  --solana-cyan: #00D4FF;
+  --solana-pink: #DC1FFF;
+  --solana-gradient: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+  
+  /* Light mode colors */
+  --brand-primary: var(--solana-purple);
+  --brand-secondary: var(--solana-green);
+  --brand-accent: var(--solana-cyan);
+  --brand-danger: var(--solana-pink);
+  --brand-background: #F3F4F6;
+  --brand-warm-background: #FEF3C7;
+  --brand-text-primary: #111827;
+  --brand-text-secondary: #6B7280;
+  --brand-border: #D1D5DB;
+  
+  /* Updated brand variables with Solana theme */
+  --brand-cool-background: #F3F4F6;
+  --brand-cool-border: #D1D5DB;
+  --brand-cool-dark-text: #111827;
+  --brand-cool-light-text: #6B7280;
+  --brand-dark-red: var(--solana-pink);
+  --brand-color-green: var(--solana-green);
+  --brand-color-blue: var(--solana-purple);
+  --brand-color-red: var(--solana-pink);
+  --brand-gray-light-text: #6B7280;
+  --brand-black: #000000;
+  --brand-light-green: var(--solana-green-dark);
+  --brand-bg-green: #ECFDF5;
+
+  color: var(--brand-cool-dark-text);
+  background-color: var(--brand-cool-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  /* Smooth transitions for theme switching */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode variables */
+.dark {
+  /* Dark mode specific colors */
+  --brand-background: #0F0F23;
+  --brand-cool-background: #0F0F23;
+  --brand-warm-background: #1A1A2E;
+  --brand-text-primary: #E2E8F0;
+  --brand-text-secondary: #94A3B8;
+  --brand-cool-dark-text: #E2E8F0;
+  --brand-cool-light-text: #94A3B8;
+  --brand-border: #334155;
+  --brand-cool-border: #334155;
+  --brand-bg-green: #16213E;
+  --brand-gray-light-text: #94A3B8;
+  
+  /* Dark mode gradients */
+  --solana-gradient: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+  --dark-gradient: linear-gradient(135deg, #0F0F23 0%, #1A1A2E 100%);
+  
+  color: var(--brand-cool-dark-text);
+  background-color: var(--brand-cool-background);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--brand-cool-background);
+  font-family: 'PT Root UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 100vh;
+}
+
+/* Solana-themed button styling */
+.wallet-adapter-button {
+  height: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  background: var(--solana-gradient);
+  border: none;
+  color: white;
+  font-family: 'PT Root UI', sans-serif;
+  padding: 0.65rem 1rem;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px 0 rgba(153, 69, 255, 0.25);
+}
+
+.wallet-adapter-button:focus,
+.wallet-adapter-button:hover {
+  background: linear-gradient(135deg, #7C3AED 0%, #10B981 100%);
+  box-shadow: 0 6px 20px 0 rgba(153, 69, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.wallet-adapter-button-trigger {
+  height: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  background: var(--solana-gradient);
+  border: none;
+  color: white;
+  font-family: 'PT Root UI', sans-serif;
+  padding: 0.65rem 1rem;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px 0 rgba(153, 69, 255, 0.25);
+}
+
+.wallet-adapter-button-trigger:focus,
+.wallet-adapter-button-trigger:hover {
+  background: linear-gradient(135deg, #7C3AED 0%, #10B981 100%);
+  box-shadow: 0 6px 20px 0 rgba(153, 69, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Solana-themed button components */
+.btn-primary {
+  height: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  background: var(--solana-gradient);
+  border: none;
+  color: white;
+  font-family: 'PT Root UI', sans-serif;
+  padding: 0.65rem 1rem;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgba(153, 69, 255, 0.25);
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  background: linear-gradient(135deg, #7C3AED 0%, #10B981 100%);
+  box-shadow: 0 6px 20px 0 rgba(153, 69, 255, 0.4);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  height: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  background-color: white;
+  border: 2px solid var(--solana-purple);
+  color: var(--solana-purple);
+  font-family: 'PT Root UI', sans-serif;
+  padding: 0.65rem 1rem;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 rgba(153, 69, 255, 0.15);
+}
+
+/* Dark mode secondary button */
+.dark .btn-secondary {
+  background-color: var(--brand-background);
+  border: 2px solid var(--solana-purple);
+  color: var(--solana-purple);
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+  background: var(--solana-gradient);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 4px 14px 0 rgba(153, 69, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Solana-themed card styling */
+.card {
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid var(--brand-cool-border);
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+/* Dark mode card */
+.dark .card {
+  background-color: var(--brand-background);
+  border: 1px solid var(--brand-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgba(153, 69, 255, 0.1), 0 4px 6px -2px rgba(153, 69, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.dark .card:hover {
+  box-shadow: 0 10px 15px -3px rgba(153, 69, 255, 0.3), 0 4px 6px -2px rgba(153, 69, 255, 0.15);
+}
+
+.card-warm {
+  background: linear-gradient(135deg, #FEF3C7 0%, #FBBF24 5%, #FEF3C7 100%);
+  border-radius: 16px;
+  border: 1px solid #F59E0B;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.1), 0 2px 4px -1px rgba(245, 158, 11, 0.06);
+  transition: all 0.3s ease;
+}
+
+/* Dark mode warm card */
+.dark .card-warm {
+  background: linear-gradient(135deg, var(--brand-warm-background) 0%, #92400e 5%, var(--brand-warm-background) 100%);
+  border: 1px solid var(--brand-border);
+}
+
+.card-gradient {
+  background: var(--solana-gradient);
+  border-radius: 16px;
+  border: none;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 14px 0 rgba(153, 69, 255, 0.25);
+  transition: all 0.3s ease;
+}
+
+.card-gradient:hover {
+  box-shadow: 0 6px 20px 0 rgba(153, 69, 255, 0.4);
+  transform: translateY(-2px);
+}

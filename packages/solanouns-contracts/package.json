@@ -1,0 +1,29 @@
+{
+  "name": "@solanouns/contracts",
+  "version": "1.0.0",
+  "description": "Solanouns DAO smart contracts for Solana",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "idl"],
+  "scripts": {
+    "build": "echo 'Contracts build requires Anchor installation'",
+    "test": "echo 'Contracts test requires Anchor installation'",
+    "deploy": "echo 'Contracts deploy requires Anchor installation'",
+    "localnet": "echo 'Contracts localnet requires Anchor installation'",
+    "clean": "rm -rf dist target",
+    "type-check": "tsc --noEmit",
+    "lint": "echo 'Contracts lint requires Rust/Cargo'"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

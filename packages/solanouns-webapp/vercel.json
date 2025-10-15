@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "solanouns-webapp",
+  "framework": "vite",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "devCommand": "pnpm dev",
+  "env": {
+    "VITE_API_URL": "https://solanouns-api.vercel.app"
+  }
+}

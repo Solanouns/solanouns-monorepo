@@ -1,0 +1,18 @@
+packages:
+  - 'packages/*'
+
+resolution-mode: highest
+
+shared-workspace-lockfile: true
+
+save-workspace-protocol: rolling
+
+enable-pre-post-scripts: true
+
+auto-install-peers: true
+
+dedupe-peer-dependents: false
+
+strict-peer-dependencies: false
+
+prefer-workspace-packages: true

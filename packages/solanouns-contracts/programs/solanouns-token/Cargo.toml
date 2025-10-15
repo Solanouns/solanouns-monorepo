@@ -1,0 +1,21 @@
+[package]
+name = "solanouns-token"
+version = "1.0.0"
+description = "Solanouns NFT Token Program"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solanouns_token"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-spl = "0.30.0"
+mpl-token-metadata = "4.1.0"
