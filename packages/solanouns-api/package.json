@@ -4,9 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'API serverless functions do not require compilation'",
-    "start": "vercel dev",
+  "build": "echo 'API serverless functions do not require compilation'",
     "lint": "eslint .",
     "typecheck": "echo 'Typecheck not needed for serverless functions'"
   },

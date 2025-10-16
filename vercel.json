@@ -10,9 +10,9 @@
       "name": "solanouns-webapp",
       "source": "packages/solanouns-webapp",
       "framework": "vite",
-      "buildCommand": "cd ../.. && npm install && npm run build --workspace=@solanouns/webapp",
-      "outputDirectory": "packages/solanouns-webapp/dist",
-      "installCommand": "npm install",
+  "buildCommand": "cd ../.. && pnpm install && pnpm run build --workspace=@solanouns/webapp",
+  "outputDirectory": "packages/solanouns-webapp/dist",
+  "installCommand": "pnpm install",
       "rootDirectory": "packages/solanouns-webapp",
       "env": {
         "VITE_API_URL": "https://solanouns-api.vercel.app"
@@ -21,9 +21,14 @@
     {
       "name": "solanouns-api",
       "source": "packages/solanouns-api",
-      "buildCommand": "cd ../.. && npm install",
-      "installCommand": "npm install",
+  "buildCommand": "cd ../.. && pnpm install",
+  "installCommand": "pnpm install",
       "rootDirectory": "packages/solanouns-api"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "NPM_CONFIG_USER_AGENT": "pnpm"
+    }
+  }
 }
