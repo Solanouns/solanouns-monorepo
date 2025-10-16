@@ -1,4 +1,4 @@
-name: Deploy to Vercel
+name: Deploy Solanouns Monorepo
 
 on:
   push:
@@ -7,7 +7,28 @@ on:
     branches: [main]
 
 jobs:
-  deploy-webapp:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      webapp: ${{ steps.changes.outputs.webapp }}
+      api: ${{ steps.changes.outputs.api }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            webapp:
+              - 'packages/solanouns-webapp/**'
+              - 'packages/solanouns-assets/**'
+              - 'packages/solanouns-sdk/**'
+            api:
+              - 'packages/solanouns-api/**'
+              - 'packages/solanouns-assets/**'
+
+  deploy-api:
+    needs: changes
+    if: ${{ needs.changes.outputs.api == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,6 +39,52 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: packages/solanouns-api
+
+      - name: Deploy API to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_API_PROJECT_ID }}
+          working-directory: packages/solanouns-api
+          vercel-args: ${{ github.event_name == 'push' && '--prod' || '' }}
+          scope: ${{ secrets.VERCEL_ORG_ID }}
+
+  deploy-webapp:
+    needs: changes
+    if: ${{ needs.changes.outputs.webapp == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: packages/solanouns-webapp
+
+      - name: Deploy Webapp to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_WEBAPP_PROJECT_ID }}
+          working-directory: packages/solanouns-webapp
+          vercel-args: ${{ github.event_name == 'push' && '--prod' || '' }}
+          scope: ${{ secrets.VERCEL_ORG_ID }}
+        env:
+          VITE_API_URL: https://solanouns-api.vercel.app
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2

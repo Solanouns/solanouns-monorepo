@@ -1,24 +1,29 @@
 {
   "version": 2,
-  "name": "solanouns-api",
-  "builds": [
+  "monorepo": true,
+  "github": {
+    "enabled": true,
+    "autoAlias": false
+  },
+  "projects": [
     {
-      "src": "packages/solanouns-api/src/server.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["packages/solanouns-api/src/**"]
+      "name": "solanouns-webapp",
+      "source": "packages/solanouns-webapp",
+      "framework": "vite",
+      "buildCommand": "cd ../.. && npm install && npm run build --workspace=@solanouns/webapp",
+      "outputDirectory": "packages/solanouns-webapp/dist",
+      "installCommand": "npm install",
+      "rootDirectory": "packages/solanouns-webapp",
+      "env": {
+        "VITE_API_URL": "https://solanouns-api.vercel.app"
       }
-    }
-  ],
-  "routes": [
+    },
     {
-      "src": "/api/(.*)",
-      "dest": "packages/solanouns-api/src/server.ts"
+      "name": "solanouns-api",
+      "source": "packages/solanouns-api",
+      "buildCommand": "cd ../.. && npm install",
+      "installCommand": "npm install",
+      "rootDirectory": "packages/solanouns-api"
     }
-  ],
-  "functions": {
-    "packages/solanouns-api/src/server.ts": {
-      "includeFiles": "packages/solanouns-api/src/**"
-    }
-  }
+  ]
 }

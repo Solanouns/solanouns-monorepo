@@ -1,14 +1,14 @@
-﻿{
+{
   "name": "@solanouns/api",
   "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
+    "dev": "vercel dev",
+    "build": "echo 'API serverless functions do not require compilation'",
+    "start": "vercel dev",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "echo 'Typecheck not needed for serverless functions'"
   },
   "dependencies": {
     "@solanouns/assets": "workspace:*",

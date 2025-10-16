@@ -1,24 +1,23 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber';
 import { keccak256 as solidityKeccak256 } from '@ethersproject/solidity';
 
-import { images, bgcolors } from './image-data.json';
-import { NounSeed, NounData } from './types';
+import solanounsData from './solanouns-data.json';
+import { NounSeed, NounData, TraitData } from './types';
 
-const { bodies, accessories, heads, glasses } = images;
-
-type ObjectKey = keyof typeof images;
+const { bgcolors, traits } = solanounsData;
+const { bodies, accessories, heads, glasses } = traits;
 
 /**
- * Get encoded part and background information using a Noun seed
+ * Get trait data using a Noun seed
  * @param seed The Noun seed
  */
 export const getNounData = (seed: NounSeed): NounData => {
   return {
     parts: [
-      bodies[seed.body],
-      accessories[seed.accessory],
-      heads[seed.head],
-      glasses[seed.glasses],
+      { filename: bodies[seed.body].filename, data: '' },
+      { filename: accessories[seed.accessory].filename, data: '' },
+      { filename: heads[seed.head].filename, data: '' },
+      { filename: glasses[seed.glasses].filename, data: '' },
     ],
     background: bgcolors[seed.background],
   };
@@ -87,11 +86,22 @@ export const getNounSeedFromBlockHash = (nounId: BigNumberish, blockHash: string
 };
 
 /**
- * Get encoded part information for one trait
+ * Get trait filename for one trait
  * @param partType The label of the part type to use
- * @param partIndex The index within the image data array of the part to get
+ * @param partIndex The index within the trait data array of the part to get
  */
 export const getPartData = (partType: string, partIndex: number): string => {
-  const part = partType as ObjectKey;
-  return images[part][partIndex].data;
+  const traitMap: Record<string, TraitData[]> = {
+    bodies,
+    accessories,
+    heads,
+    glasses,
+  };
+  
+  const traitArray = traitMap[partType];
+  if (!traitArray || !traitArray[partIndex]) {
+    throw new Error(`Invalid part type "${partType}" or index ${partIndex}`);
+  }
+  
+  return traitArray[partIndex].filename;
 };

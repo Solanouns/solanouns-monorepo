@@ -1,16 +1,27 @@
 {
   "version": 2,
   "name": "solanouns-api",
-  "builds": [
-    {
-      "src": "src/server.js",
-      "use": "@vercel/node"
+  "functions": {
+    "api/*.js": {
+      "runtime": "@vercel/node@latest"
     }
-  ],
+  },
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "src/server.js"
+      "src": "/health",
+      "dest": "/api/health"
+    },
+    {
+      "src": "/metadata",
+      "dest": "/api/metadata"
+    },
+    {
+      "src": "/image",
+      "dest": "/api/image"
+    },
+    {
+      "src": "/tokens",
+      "dest": "/api/tokens"
     }
   ]
 }

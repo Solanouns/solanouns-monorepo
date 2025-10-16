@@ -1,0 +1,1505 @@
+{
+  "bgcolors": [
+    "9945FF",
+    "14F195",
+    "DC1FFF",
+    "00D4AA",
+    "FF6B35",
+    "1A1A2E",
+    "16213E",
+    "0F3460",
+    "533483"
+  ],
+  "traits": {
+    "accessories": [
+      {
+        "name": "1n",
+        "filename": "1n-gradient.png"
+      },
+      {
+        "name": "aardvark",
+        "filename": "aardvark-gradient.png"
+      },
+      {
+        "name": "axe",
+        "filename": "axe-gradient.png"
+      },
+      {
+        "name": "belly chameleon",
+        "filename": "belly-chameleon-gradient.png"
+      },
+      {
+        "name": "bird flying",
+        "filename": "bird-flying-gradient.png"
+      },
+      {
+        "name": "bird side",
+        "filename": "bird-side-gradient.png"
+      },
+      {
+        "name": "bling anchor",
+        "filename": "bling-anchor-gradient.png"
+      },
+      {
+        "name": "bling anvil",
+        "filename": "bling-anvil-gradient.png"
+      },
+      {
+        "name": "bling arrow",
+        "filename": "bling-arrow-gradient.png"
+      },
+      {
+        "name": "bling cheese",
+        "filename": "bling-cheese-gradient.png"
+      },
+      {
+        "name": "bling gold ingot",
+        "filename": "bling-gold-ingot-gradient.png"
+      },
+      {
+        "name": "bling love",
+        "filename": "bling-love-gradient.png"
+      },
+      {
+        "name": "bling mask",
+        "filename": "bling-mask-gradient.png"
+      },
+      {
+        "name": "bling rings",
+        "filename": "bling-rings-gradient.png"
+      },
+      {
+        "name": "bling scissors",
+        "filename": "bling-scissors-gradient.png"
+      },
+      {
+        "name": "bling sparkles",
+        "filename": "bling-sparkles-gradient.png"
+      },
+      {
+        "name": "carrot",
+        "filename": "carrot-gradient.png"
+      },
+      {
+        "name": "chain logo",
+        "filename": "chain-logo-gradient.png"
+      },
+      {
+        "name": "chicken",
+        "filename": "chicken-gradient.png"
+      },
+      {
+        "name": "cloud",
+        "filename": "cloud-gradient.png"
+      },
+      {
+        "name": "clover",
+        "filename": "clover-gradient.png"
+      },
+      {
+        "name": "collar sunset",
+        "filename": "collar-sunset-gradient.png"
+      },
+      {
+        "name": "cow",
+        "filename": "cow-gradient.png"
+      },
+      {
+        "name": "dinosaur",
+        "filename": "dinosaur-gradient.png"
+      },
+      {
+        "name": "dollar bling",
+        "filename": "dollar-bling-gradient.png"
+      },
+      {
+        "name": "dragon",
+        "filename": "dragon-gradient.png"
+      },
+      {
+        "name": "ducky",
+        "filename": "ducky-gradient.png"
+      },
+      {
+        "name": "eth",
+        "filename": "eth-gradient.png"
+      },
+      {
+        "name": "eye",
+        "filename": "eye-gradient.png"
+      },
+      {
+        "name": "flash",
+        "filename": "flash-gradient.png"
+      },
+      {
+        "name": "fries",
+        "filename": "fries-gradient.png"
+      },
+      {
+        "name": "glasses",
+        "filename": "glasses-gradient.png"
+      },
+      {
+        "name": "glasses logo",
+        "filename": "glasses-logo-gradient.png"
+      },
+      {
+        "name": "glasses logo sun",
+        "filename": "glasses-logo-sun-gradient.png"
+      },
+      {
+        "name": "grid simple bege",
+        "filename": "grid-simple-bege-gradient.png"
+      },
+      {
+        "name": "heart",
+        "filename": "heart-gradient.png"
+      },
+      {
+        "name": "hoodiestrings uneven",
+        "filename": "hoodiestrings-uneven-gradient.png"
+      },
+      {
+        "name": "id",
+        "filename": "id-gradient.png"
+      },
+      {
+        "name": "infinity",
+        "filename": "infinity-gradient.png"
+      },
+      {
+        "name": "insignia",
+        "filename": "insignia-gradient.png"
+      },
+      {
+        "name": "leaf",
+        "filename": "leaf-gradient.png"
+      },
+      {
+        "name": "lightbulb",
+        "filename": "lightbulb-gradient.png"
+      },
+      {
+        "name": "lines 45 greens",
+        "filename": "lines-45-greens-gradient.png"
+      },
+      {
+        "name": "lines 45 rose",
+        "filename": "lines-45-rose-gradient.png"
+      },
+      {
+        "name": "lp",
+        "filename": "lp-gradient.png"
+      },
+      {
+        "name": "marsface",
+        "filename": "marsface-gradient.png"
+      },
+      {
+        "name": "matrix white",
+        "filename": "matrix-white-gradient.png"
+      },
+      {
+        "name": "moon block",
+        "filename": "moon-block-gradient.png"
+      },
+      {
+        "name": "none",
+        "filename": "none.png"
+      },
+      {
+        "name": "pizza bling",
+        "filename": "pizza-bling-gradient.png"
+      },
+      {
+        "name": "pocket pencil",
+        "filename": "pocket-pencil-gradient.png"
+      },
+      {
+        "name": "rain",
+        "filename": "rain-gradient.png"
+      },
+      {
+        "name": "rainbow steps",
+        "filename": "rainbow-steps-gradient.png"
+      },
+      {
+        "name": "rgb",
+        "filename": "rgb-gradient.png"
+      },
+      {
+        "name": "robot",
+        "filename": "robot-gradient.png"
+      },
+      {
+        "name": "secret x",
+        "filename": "secret-x-gradient.png"
+      },
+      {
+        "name": "shrimp",
+        "filename": "shrimp-gradient.png"
+      },
+      {
+        "name": "slimesplat",
+        "filename": "slimesplat-gradient.png"
+      },
+      {
+        "name": "small bling",
+        "filename": "small-bling-gradient.png"
+      },
+      {
+        "name": "snowflake",
+        "filename": "snowflake-gradient.png"
+      },
+      {
+        "name": "stains blood",
+        "filename": "stains-blood-gradient.png"
+      },
+      {
+        "name": "stains zombie",
+        "filename": "stains-zombie-gradient.png"
+      },
+      {
+        "name": "sunset",
+        "filename": "sunset-gradient.png"
+      },
+      {
+        "name": "text yolo",
+        "filename": "text-yolo-gradient.png"
+      },
+      {
+        "name": "think",
+        "filename": "think-gradient.png"
+      },
+      {
+        "name": "tie black on white",
+        "filename": "tie-black-on-white-gradient.png"
+      },
+      {
+        "name": "tie purple on white",
+        "filename": "tie-purple-on-white-gradient.png"
+      },
+      {
+        "name": "tie red",
+        "filename": "tie-red-gradient.png"
+      },
+      {
+        "name": "txt a2+b2",
+        "filename": "txt-a2+b2-gradient.png"
+      },
+      {
+        "name": "txt cc",
+        "filename": "txt-cc-gradient.png"
+      },
+      {
+        "name": "txt cc2",
+        "filename": "txt-cc2-gradient.png"
+      },
+      {
+        "name": "txt copy",
+        "filename": "txt-copy-gradient.png"
+      },
+      {
+        "name": "txt dao black",
+        "filename": "txt-dao-black-gradient.png"
+      },
+      {
+        "name": "txt doom",
+        "filename": "txt-doom-gradient.png"
+      },
+      {
+        "name": "txt dope text",
+        "filename": "txt-dope-text-gradient.png"
+      },
+      {
+        "name": "txt foo black",
+        "filename": "txt-foo-black-gradient.png"
+      },
+      {
+        "name": "txt io",
+        "filename": "txt-io-gradient.png"
+      },
+      {
+        "name": "txt lmao",
+        "filename": "txt-lmao-gradient.png"
+      },
+      {
+        "name": "txt lol",
+        "filename": "txt-lol-gradient.png"
+      },
+      {
+        "name": "txt mint",
+        "filename": "txt-mint-gradient.png"
+      },
+      {
+        "name": "txt nil grey dark",
+        "filename": "txt-nil-grey-dark-gradient.png"
+      },
+      {
+        "name": "txt noun f0f",
+        "filename": "txt-noun-f0f-gradient.png"
+      },
+      {
+        "name": "txt noun",
+        "filename": "txt-noun-gradient.png"
+      },
+      {
+        "name": "txt noun green",
+        "filename": "txt-noun-green-gradient.png"
+      },
+      {
+        "name": "txt noun multicolor",
+        "filename": "txt-noun-multicolor-gradient.png"
+      },
+      {
+        "name": "txt pi",
+        "filename": "txt-pi-gradient.png"
+      },
+      {
+        "name": "txt pop",
+        "filename": "txt-pop-gradient.png"
+      },
+      {
+        "name": "txt rofl",
+        "filename": "txt-rofl-gradient.png"
+      },
+      {
+        "name": "txt we",
+        "filename": "txt-we-gradient.png"
+      },
+      {
+        "name": "txt yay",
+        "filename": "txt-yay-gradient.png"
+      },
+      {
+        "name": "wave",
+        "filename": "wave-gradient.png"
+      },
+      {
+        "name": "wet money",
+        "filename": "wet-money-gradient.png"
+      },
+      {
+        "name": "yingyang",
+        "filename": "yingyang-gradient.png"
+      }
+    ],
+    "backgrounds": [
+      {
+        "name": "1",
+        "filename": "1.png"
+      },
+      {
+        "name": "2",
+        "filename": "2.png"
+      },
+      {
+        "name": "3",
+        "filename": "3.png"
+      },
+      {
+        "name": "4",
+        "filename": "4.png"
+      },
+      {
+        "name": "5",
+        "filename": "5.png"
+      },
+      {
+        "name": "6",
+        "filename": "6.png"
+      },
+      {
+        "name": "7",
+        "filename": "7.png"
+      },
+      {
+        "name": "8",
+        "filename": "8.png"
+      },
+      {
+        "name": "9",
+        "filename": "9.png"
+      }
+    ],
+    "bodies": [
+      {
+        "name": "Combination 1",
+        "filename": "Combination 1.png"
+      },
+      {
+        "name": "Combination 2",
+        "filename": "Combination 2.png"
+      },
+      {
+        "name": "Dark",
+        "filename": "Dark.png"
+      },
+      {
+        "name": "Gradient 2",
+        "filename": "Gradient 2.png"
+      },
+      {
+        "name": "Gradient",
+        "filename": "Gradient.png"
+      },
+      {
+        "name": "Knitted",
+        "filename": "Knitted.png"
+      },
+      {
+        "name": "Lines",
+        "filename": "Lines.png"
+      },
+      {
+        "name": "Puzzle 22222",
+        "filename": "Puzzle 22222.png"
+      },
+      {
+        "name": "Puzzle",
+        "filename": "Puzzle.png"
+      }
+    ],
+    "heads": [
+      {
+        "name": "bag",
+        "filename": "bag-gradient.png"
+      },
+      {
+        "name": "bagpipe",
+        "filename": "bagpipe-gradient.png"
+      },
+      {
+        "name": "banana",
+        "filename": "banana-gradient.png"
+      },
+      {
+        "name": "bank",
+        "filename": "bank-gradient.png"
+      },
+      {
+        "name": "baseball gameball",
+        "filename": "baseball-gameball-gradient.png"
+      },
+      {
+        "name": "basketball",
+        "filename": "basketball-gradient.png"
+      },
+      {
+        "name": "bat",
+        "filename": "bat-gradient.png"
+      },
+      {
+        "name": "bear",
+        "filename": "bear-gradient.png"
+      },
+      {
+        "name": "beer",
+        "filename": "beer-gradient.png"
+      },
+      {
+        "name": "beet",
+        "filename": "beet-gradient.png"
+      },
+      {
+        "name": "bell",
+        "filename": "bell-gradient.png"
+      },
+      {
+        "name": "bigfoot",
+        "filename": "bigfoot-gradient.png"
+      },
+      {
+        "name": "bigfoot yeti",
+        "filename": "bigfoot-yeti-gradient.png"
+      },
+      {
+        "name": "blackhole",
+        "filename": "blackhole-gradient.png"
+      },
+      {
+        "name": "blueberry",
+        "filename": "blueberry-gradient.png"
+      },
+      {
+        "name": "bomb",
+        "filename": "bomb-gradient.png"
+      },
+      {
+        "name": "bonsai",
+        "filename": "bonsai-gradient.png"
+      },
+      {
+        "name": "boombox",
+        "filename": "boombox-gradient.png"
+      },
+      {
+        "name": "boot",
+        "filename": "boot-gradient.png"
+      },
+      {
+        "name": "box",
+        "filename": "box-gradient.png"
+      },
+      {
+        "name": "boxingglove",
+        "filename": "boxingglove-gradient.png"
+      },
+      {
+        "name": "brain",
+        "filename": "brain-gradient.png"
+      },
+      {
+        "name": "bubble speech",
+        "filename": "bubble-speech-gradient.png"
+      },
+      {
+        "name": "bubblegum",
+        "filename": "bubblegum-gradient.png"
+      },
+      {
+        "name": "burger dollarmenu",
+        "filename": "burger-dollarmenu-gradient.png"
+      },
+      {
+        "name": "cake",
+        "filename": "cake-gradient.png"
+      },
+      {
+        "name": "calculator",
+        "filename": "calculator-gradient.png"
+      },
+      {
+        "name": "calendar",
+        "filename": "calendar-gradient.png"
+      },
+      {
+        "name": "camcorder",
+        "filename": "camcorder-gradient.png"
+      },
+      {
+        "name": "cannedham",
+        "filename": "cannedham-gradient.png"
+      },
+      {
+        "name": "car",
+        "filename": "car-gradient.png"
+      },
+      {
+        "name": "cash register",
+        "filename": "cash-register-gradient.png"
+      },
+      {
+        "name": "cassettetape",
+        "filename": "cassettetape-gradient.png"
+      },
+      {
+        "name": "cat",
+        "filename": "cat-gradient.png"
+      },
+      {
+        "name": "cd",
+        "filename": "cd-gradient.png"
+      },
+      {
+        "name": "chain",
+        "filename": "chain-gradient.png"
+      },
+      {
+        "name": "chainsaw",
+        "filename": "chainsaw-gradient.png"
+      },
+      {
+        "name": "chameleon",
+        "filename": "chameleon-gradient.png"
+      },
+      {
+        "name": "chart bars",
+        "filename": "chart-bars-gradient.png"
+      },
+      {
+        "name": "cheese",
+        "filename": "cheese-gradient.png"
+      },
+      {
+        "name": "chefhat",
+        "filename": "chefhat-gradient.png"
+      },
+      {
+        "name": "cherry",
+        "filename": "cherry-gradient.png"
+      },
+      {
+        "name": "chicken",
+        "filename": "chicken-gradient.png"
+      },
+      {
+        "name": "chilli",
+        "filename": "chilli-gradient.png"
+      },
+      {
+        "name": "chipboard",
+        "filename": "chipboard-gradient.png"
+      },
+      {
+        "name": "chips",
+        "filename": "chips-gradient.png"
+      },
+      {
+        "name": "chocolate",
+        "filename": "chocolate-gradient.png"
+      },
+      {
+        "name": "cloud",
+        "filename": "cloud-gradient.png"
+      },
+      {
+        "name": "clover",
+        "filename": "clover-gradient.png"
+      },
+      {
+        "name": "clutch",
+        "filename": "clutch-gradient.png"
+      },
+      {
+        "name": "coffeebean",
+        "filename": "coffeebean-gradient.png"
+      },
+      {
+        "name": "cone",
+        "filename": "cone-gradient.png"
+      },
+      {
+        "name": "console handheld",
+        "filename": "console-handheld-gradient.png"
+      },
+      {
+        "name": "cookie",
+        "filename": "cookie-gradient.png"
+      },
+      {
+        "name": "cordlessphone",
+        "filename": "cordlessphone-gradient.png"
+      },
+      {
+        "name": "cottonball",
+        "filename": "cottonball-gradient.png"
+      },
+      {
+        "name": "cow",
+        "filename": "cow-gradient.png"
+      },
+      {
+        "name": "crab",
+        "filename": "crab-gradient.png"
+      },
+      {
+        "name": "crane",
+        "filename": "crane-gradient.png"
+      },
+      {
+        "name": "croc hat",
+        "filename": "croc-hat-gradient.png"
+      },
+      {
+        "name": "crown",
+        "filename": "crown-gradient.png"
+      },
+      {
+        "name": "crt bsod",
+        "filename": "crt-bsod-gradient.png"
+      },
+      {
+        "name": "crystalball",
+        "filename": "crystalball-gradient.png"
+      },
+      {
+        "name": "diamond blue",
+        "filename": "diamond-blue-gradient.png"
+      },
+      {
+        "name": "diamond red",
+        "filename": "diamond-red-gradient.png"
+      },
+      {
+        "name": "dictionary",
+        "filename": "dictionary-gradient.png"
+      },
+      {
+        "name": "dino",
+        "filename": "dino-gradient.png"
+      },
+      {
+        "name": "dna",
+        "filename": "dna-gradient.png"
+      },
+      {
+        "name": "dog",
+        "filename": "dog-gradient.png"
+      },
+      {
+        "name": "doughnut",
+        "filename": "doughnut-gradient.png"
+      },
+      {
+        "name": "drill",
+        "filename": "drill-gradient.png"
+      },
+      {
+        "name": "duck",
+        "filename": "duck-gradient.png"
+      },
+      {
+        "name": "ducky",
+        "filename": "ducky-gradient.png"
+      },
+      {
+        "name": "earth",
+        "filename": "earth-gradient.png"
+      },
+      {
+        "name": "egg",
+        "filename": "egg-gradient.png"
+      },
+      {
+        "name": "faberge",
+        "filename": "faberge-gradient.png"
+      },
+      {
+        "name": "factory dark",
+        "filename": "factory-dark-gradient.png"
+      },
+      {
+        "name": "fan",
+        "filename": "fan-gradient.png"
+      },
+      {
+        "name": "fence",
+        "filename": "fence-gradient.png"
+      },
+      {
+        "name": "film 35mm",
+        "filename": "film-35mm-gradient.png"
+      },
+      {
+        "name": "film strip",
+        "filename": "film-strip-gradient.png"
+      },
+      {
+        "name": "fir",
+        "filename": "fir-gradient.png"
+      },
+      {
+        "name": "firehydrant",
+        "filename": "firehydrant-gradient.png"
+      },
+      {
+        "name": "flamingo",
+        "filename": "flamingo-gradient.png"
+      },
+      {
+        "name": "flower",
+        "filename": "flower-gradient.png"
+      },
+      {
+        "name": "fox",
+        "filename": "fox-gradient.png"
+      },
+      {
+        "name": "frog",
+        "filename": "frog-gradient.png"
+      },
+      {
+        "name": "garlic",
+        "filename": "garlic-gradient.png"
+      },
+      {
+        "name": "gavel",
+        "filename": "gavel-gradient.png"
+      },
+      {
+        "name": "ghost B",
+        "filename": "ghost-B-gradient.png"
+      },
+      {
+        "name": "glasses big",
+        "filename": "glasses-big-gradient.png"
+      },
+      {
+        "name": "gnome",
+        "filename": "gnome-gradient.png"
+      },
+      {
+        "name": "goat",
+        "filename": "goat-gradient.png"
+      },
+      {
+        "name": "goldcoin",
+        "filename": "goldcoin-gradient.png"
+      },
+      {
+        "name": "goldfish",
+        "filename": "goldfish-gradient.png"
+      },
+      {
+        "name": "grouper",
+        "filename": "grouper-gradient.png"
+      },
+      {
+        "name": "hair",
+        "filename": "hair-gradient.png"
+      },
+      {
+        "name": "hardhat",
+        "filename": "hardhat-gradient.png"
+      },
+      {
+        "name": "heart",
+        "filename": "heart-gradient.png"
+      },
+      {
+        "name": "helicopter",
+        "filename": "helicopter-gradient.png"
+      },
+      {
+        "name": "highheel",
+        "filename": "highheel-gradient.png"
+      },
+      {
+        "name": "hockeypuck",
+        "filename": "hockeypuck-gradient.png"
+      },
+      {
+        "name": "horse deepfried",
+        "filename": "horse-deepfried-gradient.png"
+      },
+      {
+        "name": "hotdog",
+        "filename": "hotdog-gradient.png"
+      },
+      {
+        "name": "house",
+        "filename": "house-gradient.png"
+      },
+      {
+        "name": "icepop b",
+        "filename": "icepop-b-gradient.png"
+      },
+      {
+        "name": "igloo",
+        "filename": "igloo-gradient.png"
+      },
+      {
+        "name": "island",
+        "filename": "island-gradient.png"
+      },
+      {
+        "name": "jellyfish",
+        "filename": "jellyfish-gradient.png"
+      },
+      {
+        "name": "jupiter",
+        "filename": "jupiter-gradient.png"
+      },
+      {
+        "name": "kangaroo",
+        "filename": "kangaroo-gradient.png"
+      },
+      {
+        "name": "ketchup",
+        "filename": "ketchup-gradient.png"
+      },
+      {
+        "name": "laptop",
+        "filename": "laptop-gradient.png"
+      },
+      {
+        "name": "lightning bolt",
+        "filename": "lightning-bolt-gradient.png"
+      },
+      {
+        "name": "lint",
+        "filename": "lint-gradient.png"
+      },
+      {
+        "name": "lips",
+        "filename": "lips-gradient.png"
+      },
+      {
+        "name": "lipstick2",
+        "filename": "lipstick2-gradient.png"
+      },
+      {
+        "name": "lock",
+        "filename": "lock-gradient.png"
+      },
+      {
+        "name": "macaroni",
+        "filename": "macaroni-gradient.png"
+      },
+      {
+        "name": "mailbox",
+        "filename": "mailbox-gradient.png"
+      },
+      {
+        "name": "maze",
+        "filename": "maze-gradient.png"
+      },
+      {
+        "name": "microwave",
+        "filename": "microwave-gradient.png"
+      },
+      {
+        "name": "milk",
+        "filename": "milk-gradient.png"
+      },
+      {
+        "name": "mirror",
+        "filename": "mirror-gradient.png"
+      },
+      {
+        "name": "mixer",
+        "filename": "mixer-gradient.png"
+      },
+      {
+        "name": "moon",
+        "filename": "moon-gradient.png"
+      },
+      {
+        "name": "moose",
+        "filename": "moose-gradient.png"
+      },
+      {
+        "name": "mosquito",
+        "filename": "mosquito-gradient.png"
+      },
+      {
+        "name": "mountain snowcap",
+        "filename": "mountain-snowcap-gradient.png"
+      },
+      {
+        "name": "mouse",
+        "filename": "mouse-gradient.png"
+      },
+      {
+        "name": "mug",
+        "filename": "mug-gradient.png"
+      },
+      {
+        "name": "mushroom",
+        "filename": "mushroom-gradient.png"
+      },
+      {
+        "name": "mustard",
+        "filename": "mustard-gradient.png"
+      },
+      {
+        "name": "nigiri",
+        "filename": "nigiri-gradient.png"
+      },
+      {
+        "name": "noodles",
+        "filename": "noodles-gradient.png"
+      },
+      {
+        "name": "onion",
+        "filename": "onion-gradient.png"
+      },
+      {
+        "name": "orangutan",
+        "filename": "orangutan-gradient.png"
+      },
+      {
+        "name": "orca",
+        "filename": "orca-gradient.png"
+      },
+      {
+        "name": "otter",
+        "filename": "otter-gradient.png"
+      },
+      {
+        "name": "outlet",
+        "filename": "outlet-gradient.png"
+      },
+      {
+        "name": "owl",
+        "filename": "owl-gradient.png"
+      },
+      {
+        "name": "oyster",
+        "filename": "oyster-gradient.png"
+      },
+      {
+        "name": "paintbrush",
+        "filename": "paintbrush-gradient.png"
+      },
+      {
+        "name": "panda",
+        "filename": "panda-gradient.png"
+      },
+      {
+        "name": "paperclip",
+        "filename": "paperclip-gradient.png"
+      },
+      {
+        "name": "peanut",
+        "filename": "peanut-gradient.png"
+      },
+      {
+        "name": "pencil tip",
+        "filename": "pencil-tip-gradient.png"
+      },
+      {
+        "name": "peyote",
+        "filename": "peyote-gradient.png"
+      },
+      {
+        "name": "piano",
+        "filename": "piano-gradient.png"
+      },
+      {
+        "name": "pickle",
+        "filename": "pickle-gradient.png"
+      },
+      {
+        "name": "pie",
+        "filename": "pie-gradient.png"
+      },
+      {
+        "name": "piggybank",
+        "filename": "piggybank-gradient.png"
+      },
+      {
+        "name": "pill",
+        "filename": "pill-gradient.png"
+      },
+      {
+        "name": "pillow",
+        "filename": "pillow-gradient.png"
+      },
+      {
+        "name": "pineapple",
+        "filename": "pineapple-gradient.png"
+      },
+      {
+        "name": "pipe",
+        "filename": "pipe-gradient.png"
+      },
+      {
+        "name": "pirateship",
+        "filename": "pirateship-gradient.png"
+      },
+      {
+        "name": "pizza",
+        "filename": "pizza-gradient.png"
+      },
+      {
+        "name": "plane",
+        "filename": "plane-gradient.png"
+      },
+      {
+        "name": "pop",
+        "filename": "pop-gradient.png"
+      },
+      {
+        "name": "porkbao",
+        "filename": "porkbao-gradient.png"
+      },
+      {
+        "name": "potato",
+        "filename": "potato-gradient.png"
+      },
+      {
+        "name": "pufferfish",
+        "filename": "pufferfish-gradient.png"
+      },
+      {
+        "name": "pumpkin",
+        "filename": "pumpkin-gradient.png"
+      },
+      {
+        "name": "pyramid",
+        "filename": "pyramid-gradient.png"
+      },
+      {
+        "name": "queencrown",
+        "filename": "queencrown-gradient.png"
+      },
+      {
+        "name": "rabbit",
+        "filename": "rabbit-gradient.png"
+      },
+      {
+        "name": "rainbow",
+        "filename": "rainbow-gradient.png"
+      },
+      {
+        "name": "rangefinder",
+        "filename": "rangefinder-gradient.png"
+      },
+      {
+        "name": "raven",
+        "filename": "raven-gradient.png"
+      },
+      {
+        "name": "retainer",
+        "filename": "retainer-gradient.png"
+      },
+      {
+        "name": "rgb",
+        "filename": "rgb-gradient.png"
+      },
+      {
+        "name": "ring",
+        "filename": "ring-gradient.png"
+      },
+      {
+        "name": "road",
+        "filename": "road-gradient.png"
+      },
+      {
+        "name": "robot",
+        "filename": "robot-gradient.png"
+      },
+      {
+        "name": "rock",
+        "filename": "rock-gradient.png"
+      },
+      {
+        "name": "rosebud",
+        "filename": "rosebud-gradient.png"
+      },
+      {
+        "name": "ruler triangular",
+        "filename": "ruler-triangular-gradient.png"
+      },
+      {
+        "name": "saguaro",
+        "filename": "saguaro-gradient.png"
+      },
+      {
+        "name": "sailboat",
+        "filename": "sailboat-gradient.png"
+      },
+      {
+        "name": "sandwich",
+        "filename": "sandwich-gradient.png"
+      },
+      {
+        "name": "saturn",
+        "filename": "saturn-gradient.png"
+      },
+      {
+        "name": "saw",
+        "filename": "saw-gradient.png"
+      },
+      {
+        "name": "scorpion",
+        "filename": "scorpion-gradient.png"
+      },
+      {
+        "name": "shark",
+        "filename": "shark-gradient.png"
+      },
+      {
+        "name": "shower",
+        "filename": "shower-gradient.png"
+      },
+      {
+        "name": "skateboard",
+        "filename": "skateboard-gradient.png"
+      },
+      {
+        "name": "skeleton hat",
+        "filename": "skeleton-hat-gradient.png"
+      },
+      {
+        "name": "skilift",
+        "filename": "skilift-gradient.png"
+      },
+      {
+        "name": "smile",
+        "filename": "smile-gradient.png"
+      },
+      {
+        "name": "snowglobe",
+        "filename": "snowglobe-gradient.png"
+      },
+      {
+        "name": "snowmobile",
+        "filename": "snowmobile-gradient.png"
+      },
+      {
+        "name": "spaghetti",
+        "filename": "spaghetti-gradient.png"
+      },
+      {
+        "name": "sponge",
+        "filename": "sponge-gradient.png"
+      },
+      {
+        "name": "squid",
+        "filename": "squid-gradient.png"
+      },
+      {
+        "name": "stapler",
+        "filename": "stapler-gradient.png"
+      },
+      {
+        "name": "star sparkles",
+        "filename": "star-sparkles-gradient.png"
+      },
+      {
+        "name": "steak",
+        "filename": "steak-gradient.png"
+      },
+      {
+        "name": "sunset",
+        "filename": "sunset-gradient.png"
+      },
+      {
+        "name": "taco classic",
+        "filename": "taco-classic-gradient.png"
+      },
+      {
+        "name": "taxi",
+        "filename": "taxi-gradient.png"
+      },
+      {
+        "name": "thumbsup",
+        "filename": "thumbsup-gradient.png"
+      },
+      {
+        "name": "toaster",
+        "filename": "toaster-gradient.png"
+      },
+      {
+        "name": "toiletpaper full",
+        "filename": "toiletpaper-full-gradient.png"
+      },
+      {
+        "name": "tooth",
+        "filename": "tooth-gradient.png"
+      },
+      {
+        "name": "toothbrush fresh",
+        "filename": "toothbrush-fresh-gradient.png"
+      },
+      {
+        "name": "tornado",
+        "filename": "tornado-gradient.png"
+      },
+      {
+        "name": "trashcan",
+        "filename": "trashcan-gradient.png"
+      },
+      {
+        "name": "turing",
+        "filename": "turing-gradient.png"
+      },
+      {
+        "name": "ufo",
+        "filename": "ufo-gradient.png"
+      },
+      {
+        "name": "undead",
+        "filename": "undead-gradient.png"
+      },
+      {
+        "name": "unicorn",
+        "filename": "unicorn-gradient.png"
+      },
+      {
+        "name": "vent",
+        "filename": "vent-gradient.png"
+      },
+      {
+        "name": "void",
+        "filename": "void-gradient.png"
+      },
+      {
+        "name": "volcano",
+        "filename": "volcano-gradient.png"
+      },
+      {
+        "name": "volleyball",
+        "filename": "volleyball-gradient.png"
+      },
+      {
+        "name": "wall",
+        "filename": "wall-gradient.png"
+      },
+      {
+        "name": "wallet",
+        "filename": "wallet-gradient.png"
+      },
+      {
+        "name": "wallsafe",
+        "filename": "wallsafe-gradient.png"
+      },
+      {
+        "name": "washingmachine",
+        "filename": "washingmachine-gradient.png"
+      },
+      {
+        "name": "watch",
+        "filename": "watch-gradient.png"
+      },
+      {
+        "name": "watermelon",
+        "filename": "watermelon-gradient.png"
+      },
+      {
+        "name": "wave",
+        "filename": "wave-gradient.png"
+      },
+      {
+        "name": "weed",
+        "filename": "weed-gradient.png"
+      },
+      {
+        "name": "weight",
+        "filename": "weight-gradient.png"
+      },
+      {
+        "name": "werewolf",
+        "filename": "werewolf-gradient.png"
+      },
+      {
+        "name": "whale alive",
+        "filename": "whale-alive-gradient.png"
+      },
+      {
+        "name": "whale",
+        "filename": "whale-gradient.png"
+      },
+      {
+        "name": "wine",
+        "filename": "wine-gradient.png"
+      },
+      {
+        "name": "wizardhat",
+        "filename": "wizardhat-gradient.png"
+      },
+      {
+        "name": "zebra",
+        "filename": "zebra-gradient.png"
+      }
+    ],
+    "glasses": [
+      {
+        "name": "Aero Blue",
+        "filename": "Aero Blue.png"
+      },
+      {
+        "name": "Aquamarine",
+        "filename": "Aquamarine.png"
+      },
+      {
+        "name": "Blizzard Blue",
+        "filename": "Blizzard Blue.png"
+      },
+      {
+        "name": "Bright Lilac",
+        "filename": "Bright Lilac.png"
+      },
+      {
+        "name": "Cadet Blue",
+        "filename": "Cadet Blue.png"
+      },
+      {
+        "name": "Dark Magenta",
+        "filename": "Dark Magenta.png"
+      },
+      {
+        "name": "Dark Orchid",
+        "filename": "Dark Orchid.png"
+      },
+      {
+        "name": "Electric Lavender",
+        "filename": "Electric Lavender.png"
+      },
+      {
+        "name": "Emerald Green",
+        "filename": "Emerald Green.png"
+      },
+      {
+        "name": "Extended 1",
+        "filename": "Extended 1.png"
+      },
+      {
+        "name": "Extended 2",
+        "filename": "Extended 2.png"
+      },
+      {
+        "name": "Extended 3",
+        "filename": "Extended 3.png"
+      },
+      {
+        "name": "Extended 4",
+        "filename": "Extended 4.png"
+      },
+      {
+        "name": "Extended 5",
+        "filename": "Extended 5.png"
+      },
+      {
+        "name": "Extended 6",
+        "filename": "Extended 6.png"
+      },
+      {
+        "name": "Extended 7",
+        "filename": "Extended 7.png"
+      },
+      {
+        "name": "Extended 8",
+        "filename": "Extended 8.png"
+      },
+      {
+        "name": "Indigo",
+        "filename": "Indigo.png"
+      },
+      {
+        "name": "Light Cyan",
+        "filename": "Light Cyan.png"
+      },
+      {
+        "name": "Medium Violet",
+        "filename": "Medium Violet.png"
+      },
+      {
+        "name": "Middle Blue",
+        "filename": "Middle Blue.png"
+      },
+      {
+        "name": "Munsell",
+        "filename": "Munsell.png"
+      },
+      {
+        "name": "Ocean Blue",
+        "filename": "Ocean Blue.png"
+      },
+      {
+        "name": "Purple Dino",
+        "filename": "Purple Dino.png"
+      },
+      {
+        "name": "Shamrock Green",
+        "filename": "Shamrock Green.png"
+      },
+      {
+        "name": "Surge Green",
+        "filename": "Surge Green.png"
+      },
+      {
+        "name": "Surge",
+        "filename": "Surge.png"
+      },
+      {
+        "name": "Waterspout",
+        "filename": "Waterspout.png"
+      }
+    ]
+  }
+}

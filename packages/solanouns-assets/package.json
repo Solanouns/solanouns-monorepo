@@ -24,6 +24,7 @@
     "clean": "rimraf dist",
     "encode": "ts-node scripts/encode.ts",
     "encode-more": "ts-node scripts/encode-more.ts",
+    "generate-traits": "ts-node scripts/generate-traits.ts",
     "test": "vitest run"
   },
   "dependencies": {

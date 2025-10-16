@@ -1,4 +1,20 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+// API configuration with environment-specific URLs
+const getAPIBaseURL = () => {
+  // In production, try environment variable first, then fallback to production URL
+  if (import.meta.env.VITE_API_URL) {
+    return import.meta.env.VITE_API_URL;
+  }
+  
+  // Production fallback
+  if (import.meta.env.PROD) {
+    return 'https://solanouns-api.vercel.app';
+  }
+  
+  // Development default
+  return 'http://localhost:3001';
+};
+
+const API_BASE_URL = getAPIBaseURL();
 
 export interface SolanounMetadata {
   name: string;

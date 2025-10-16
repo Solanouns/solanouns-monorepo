@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { SolanounsAPI, SolanounMetadata } from '../../services/api';
+import { SolanounsAPI } from '../../services/api';
 
 interface SolanounCardProps {
   tokenId: number;
